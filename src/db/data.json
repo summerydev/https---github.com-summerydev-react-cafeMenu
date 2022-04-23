@@ -1,0 +1,39 @@
+{
+  "menu": [
+    {
+      "id": "1",
+      "name": "아이스아메리카노",
+      "price": 3500,
+      "description": "얼죽아는 영원합니다!",
+      "image": "https://cdn.pixabay.com/photo/2015/06/24/13/31/beer-820011_1280.jpg"
+    },
+    {
+      "id": "2",
+      "name": "아메리카노",
+      "price": 3500,
+      "description": "달달한 디저트와 함께하면 찰떡",
+      "image": "/src/image/coffee_iceAmericano.png"
+    },
+    {
+      "id": "3",
+      "name": "아인슈페너",
+      "price": 5000,
+      "description": "동물성 크림을 사용해 더 맛있어요!",
+      "image": "/src/image/coffee_einspanner.png"
+    },
+    {
+      "id": "4",
+      "name": "카페라떼",
+      "price": 4000,
+      "description": "고소하고 부드러워요",
+      "image": "/src/image/coffee_cafeLatte.png"
+    },
+    {
+      "id": 5,
+      "name": "aa",
+      "price": "ss",
+      "description": "dd",
+      "image": "aa"
+    }
+  ]
+}
