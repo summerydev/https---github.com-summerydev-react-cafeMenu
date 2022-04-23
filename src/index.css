@@ -1,5 +1,5 @@
 *{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 } 
 
@@ -47,7 +47,7 @@ header{
   display: flex;
   flex-wrap: wrap;
   width: 300px;
-  height: 230px;
+  height: 250px;
   margin: 10px;
   padding: 10px;
   background-color: rgb(248, 250, 215);
@@ -100,6 +100,43 @@ img{
 .submit-button{
   display: flex;
   justify-content: center;
+}
+
+button{
+  background:#a6bedc;
+  color:#fff;
+  border:none;
+  position:relative;
+  width: 200px;
+  height:40px;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#fff;
+  color:#7185c7;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #6f8dcf;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
 }
 
 @media (max-width: 700px){
