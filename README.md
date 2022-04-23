@@ -14,11 +14,15 @@
 - CRA
 - react
 - CSS
-- https://github.com/dorimoribebe/react-cafeMenu
+- https://github.com/summerydev/react-cafeMenu
 
 ---
 # 실행 방법
-- git clone 
+- git clone https://github.com/summerydev/react-cafeMenu
+- npm install
+- npx json-server --watch ./src/db/data.json --port 3001
+- npm start
+
 ---
 
 # 기능 및 구현
